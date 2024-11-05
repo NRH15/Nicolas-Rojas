@@ -1,40 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
+    box-sizing: border-box;
     padding: 0%;
     margin: 0%;
 }
 
 body {
-    background-color:#9cfc97;
-
-    color:#353d2f;
-
-    height: 100vh;
-
-    box-sizing: border-box;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-}
-strong {
-    color: #6ba368;
+    background-color: #ffffff;
 }
 
-.title {
-    color: #e6fafc;
+.bienvenida h1{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-conte
-
-.img1{
-   margin-right: 10px;
-
-}
-
-div {
-
-    justify-content: center;
-
+.bienvenida p {
+    font-size: 16px;
+    color: #555;
 }
