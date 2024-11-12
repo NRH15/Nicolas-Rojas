@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image:url("https://cdn-eeafe.nitrocdn.com/ronSyXatAkJLnOJRGMhlJdhhuaZLjWJV/assets/images/optimized/rev-f118bc1/competitividad.ccpasto.org.co/wp-content/uploads/2021/06/4892-1_Parque_20_de_Julio_y_Catedral_de_Ipiales-1-1024x683.jpg");
+    ackground-image:url("https://cdn-eeafe.nitrocdn.com/ronSyXatAkJLnOJRGMhlJdhhuaZLjWJV/assets/images/optimized/rev-f118bc1/competitividad.ccpasto.org.co/wp-content/uploads/2021/06/4892-1_Parque_20_de_Julio_y_Catedral_de_Ipiales-1-1024x683.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
     box-sizing: border-box;
 }
 .header{
-    background-color: black;
+    background-color: lightgreen;
     padding: 2% 0% 0% 15%;
 
 }
@@ -52,4 +52,15 @@ body {
 .bienvenida p {
     font-size: 16px;
     color: #555;
+}
+
+.imagen_ipiales{
+    width: 0,3px;
+    height: 1px;
+}
+
+.segundo_historia{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
 }
