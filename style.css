@@ -1,15 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
-    box-sizing: border-box;
     padding: 0%;
     margin: 0%;
 }
 
 body {
-    background-color: #ffffff;
+    background-image:url("https://cdn-eeafe.nitrocdn.com/ronSyXatAkJLnOJRGMhlJdhhuaZLjWJV/assets/images/optimized/rev-f118bc1/competitividad.ccpasto.org.co/wp-content/uploads/2021/06/4892-1_Parque_20_de_Julio_y_Catedral_de_Ipiales-1-1024x683.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:rgb(23, 137, 236);
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    padding: 2% 0% 0% 15%;
+
+}
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__link{
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--color-terciario); 
+    text-decoration: none;
 }
 
+.contenedor_padre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6% 15%; 
+    gap: 20px;
+}
+.segundo_contenedor{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
 .bienvenida h1{
     font-size: 24px;
     color: #333;
