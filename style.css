@@ -11,17 +11,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    color:rgb(23, 137, 236);
+    color:rgb(0, 0, 0);
     box-sizing: border-box;
 }
-.header{
+.header1{
     background-color: lightgreen;
     padding: 2% 0% 0% 15%;
 
 }
 .header__menu{
     display: flex;
-    gap: 80px;
+    gap: 100px;
 }
 .header__menu__link{
     font-family: var(--fuente-montserrat);
@@ -64,3 +64,23 @@ body {
     flex-direction: row;
     gap:20px;
 }
+
+.header2{
+    background-color: #9b2226;
+    padding: 2% 0% 0% 15%;
+    }
+
+.header3{
+    background-color: #005f73;
+    padding: 2% 0% 0% 15%;
+    }
+
+    .header4{
+        background-color: #0a9396;
+        padding: 2% 0% 0% 15%;
+    }
+
+    .header5{
+        background-color: #ca6702;
+        padding: 2% 0% 0% 15%;
+    }
